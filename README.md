@@ -1,5 +1,3 @@
-# maximodevcli-dock
- Command line tools for maximo as a container
  As part of creating addons for maximo we see that IBM's contribution and development of well written tool helps a lot (ibm-maximo-dev).
 
 To make the build environment clean and light weight thought of making that as a dockerized environment. Which in turn can be distributed to the developers without any hassle.
@@ -24,14 +22,4 @@ docker run -it <name you mentioned in the previous build> /bin/bash
 
 You will be now into the container Holla..
 
-Start building addons to your base maximo.
-
- 
-
- 
-
- 
-
-Note: For devcli commands you can refer the below repo
-
-https://github.com/ibm-maximo-dev/maximodev-cli 
+Start building addons to your base maximo. 
