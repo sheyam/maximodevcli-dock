@@ -8,7 +8,7 @@ Below attached Dockerfile contains a Ubuntu 14.04 image which comprise Java 8,no
 
 All you need to do is to add the Docker file to your SMP folder and run the below command to build a clean image with addon support for maximo.
 
-docker build -t <anyname> . --nocache
+docker build -t anyname . --nocache
 
 Here nocache is to ignore previous cached layers if that fails in middle this will help.
 
@@ -18,7 +18,7 @@ In case  you forget the name you gave during the build. You can list the existin
 
 docker images command
 
-docker run -it <name you mentioned in the previous build> /bin/bash
+docker run -it name you mentioned in the previous build /bin/bash
 
 You will be now into the container Holla..
 
